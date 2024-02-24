@@ -1,5 +1,5 @@
 from modelos.avaliacao import Avaliacao
-from modelos.Cardapio.item_cardapio import ItemCardapio
+from Cardapio.item_cardapio import ItemCardapio
 
 class Restaurante:
     restaurantes = []
@@ -53,3 +53,10 @@ class Restaurante:
         if isinstance(item,ItemCardapio):
             self._cardapio.append(item)
 
+    @property
+    def exibir_cardapio(self):
+        print(f'Cardapio do Restaurante {self._nome}')
+        for i,item in enumerate(self._cardapio):
+            Mensagem = f'{item._nome} | {item._preco}'
+            print(Mensagem)
+        
