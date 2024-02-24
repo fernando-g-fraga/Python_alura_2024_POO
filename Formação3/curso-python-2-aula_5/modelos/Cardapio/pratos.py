@@ -6,3 +6,5 @@ class Pratos(ItemCardapio):
         self.descricao = descricao
 
       
+    def __str__(self) -> str:
+        return self._nome
