@@ -1,6 +1,8 @@
-class Pratos:
+from modelos.Cardapio.item_cardapio import ItemCardapio
+
+class Pratos(ItemCardapio):
     def __init__(self,nome,preco,descricao) -> None:
-        
-        self._nome = nome
-        self._preco = preco
-        self._descricao = descricao
+        super().__init__(nome,preco)
+        self.descricao = descricao
+
+      
