@@ -7,8 +7,8 @@ restaurante_praca = Restaurante('praça', 'Gourmet')
 bebida1 = Bebidas("Cerveja", 5.00, "250ml")
 prato1 = Pratos("Macarrão",10.00,"Espaghetti ao sugo com medalhões de filé mignon")
 
-restaurante_praca.adicionar_bebida_no_cardapio(bebida1)
-restaurante_praca.adicionar_prato_no_cardapio(prato1)
+restaurante_praca.adicionar_no_cardapio(bebida1)
+restaurante_praca.adicionar_no_cardapio(prato1)
 
 
 def main():
