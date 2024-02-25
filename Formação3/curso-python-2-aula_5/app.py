@@ -1,6 +1,5 @@
 from modelos.Cardapio.bebidas import Bebidas
 from modelos.Cardapio.pratos import Pratos
-from modelos.Cardapio.item_cardapio import ItemCardapio
 from modelos.restaurante import Restaurante
 
 restaurante_praca = Restaurante('praça', 'Gourmet')
