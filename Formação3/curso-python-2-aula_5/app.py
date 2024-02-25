@@ -7,8 +7,9 @@ bebida1 = Bebidas("Cerveja", 5.00, "250ml")
 prato1 = Pratos("Macarrão",10.00,"Espaghetti ao sugo com medalhões de filé mignon")
 
 restaurante_praca.adicionar_no_cardapio(bebida1)
+bebida1.aplicar_desconto()
 restaurante_praca.adicionar_no_cardapio(prato1)
-
+prato1.aplicar_desconto()
 
 def main():
     restaurante_praca.exibir_cardapio
